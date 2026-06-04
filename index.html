@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>LiquidityHub</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Inter,Arial,sans-serif;
+}
+
+body{
+background:#060b18;
+color:#fff;
+}
+
+nav{
+display:flex;
+justify-content:space-between;
+padding:24px 80px;
+align-items:center;
+border-bottom:1px solid rgba(255,255,255,.08);
+}
+
+.logo{
+font-size:24px;
+font-weight:700;
+}
+
+.hero{
+padding:100px 80px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+gap:50px;
+}
+
+.left{
+max-width:600px;
+}
+
+.left h1{
+font-size:64px;
+line-height:1.1;
+margin-bottom:20px;
+}
+
+.left p{
+font-size:18px;
+color:#a5b4fc;
+line-height:1.7;
+}
+
+.btn{
+display:inline-block;
+margin-top:30px;
+padding:14px 28px;
+background:#6366f1;
+border-radius:12px;
+text-decoration:none;
+color:white;
+}
+
+.dashboard{
+background:#111827;
+padding:30px;
+border-radius:20px;
+width:420px;
+}
+
+.metric{
+margin-bottom:20px;
+}
+
+.metric span{
+color:#94a3b8;
+}
+
+.metric h2{
+margin-top:5px;
+}
+
+.section{
+padding:80px;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+gap:20px;
+margin-top:30px;
+}
+
+.card{
+background:#111827;
+padding:25px;
+border-radius:16px;
+}
+
+.card h3{
+margin-bottom:10px;
+}
+
+.footer{
+padding:40px;
+text-align:center;
+color:#64748b;
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+<div class="logo">LiquidityHub</div>
+<div>Built on IOPN</div>
+</nav>
+
+<section class="hero">
+
+<div class="left">
+<h1>Liquidity Position Intelligence</h1>
+
+<p>
+Track liquidity pools, monitor APR performance,
+and understand impermanent loss exposure from a
+single dashboard.
+</p>
+
+<a href="#" class="btn">Open Dashboard</a>
+</div>
+
+<div class="dashboard">
+
+<div class="metric">
+<span>Total Liquidity</span>
+<h2>$18.4M</h2>
+</div>
+
+<div class="metric">
+<span>Active Pools</span>
+<h2>124</h2>
+</div>
+
+<div class="metric">
+<span>Average APR</span>
+<h2>14.8%</h2>
+</div>
+
+<div class="metric">
+<span>LP Positions</span>
+<h2>8,432</h2>
+</div>
+
+</div>
+
+</section>
+
+<section class="section">
+
+<h2>Features</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>Pool Discovery</h3>
+<p>Compare liquidity opportunities across protocols.</p>
+</div>
+
+<div class="card">
+<h3>APR Tracking</h3>
+<p>Monitor rewards and pool performance.</p>
+</div>
+
+<div class="card">
+<h3>Impermanent Loss</h3>
+<p>Understand risk exposure before providing liquidity.</p>
+</div>
+
+<div class="card">
+<h3>Portfolio View</h3>
+<p>Track all LP positions from one interface.</p>
+</div>
+
+</div>
+
+</section>
+
+<div class="footer">
+© 2026 LiquidityHub
+</div>
+
+</body>
+</html>
