@@ -169,8 +169,7 @@ https://YOUR-VERCEL-URL.vercel.app
 
 Repository:
 
-https://github.com/YOUR-USERNAME/liquidityhub
-
+https://github.com/amirul1707/LiquidityHub
 ---
 
 ## License
